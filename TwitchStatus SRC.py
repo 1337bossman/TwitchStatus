@@ -2,11 +2,6 @@ import discord
 import time
 from discord.ext import commands
 import random
-import webbrowser
-import setproctitle
-
-setproctitle.setproctitle('')
-
 
 client = commands.Bot(command_prefix = ';', self_bot=True)
 token = input('Token: ')
