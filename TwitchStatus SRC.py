@@ -11,6 +11,6 @@ clurl = input('Your Twitch : ')
 @client.event
 async def on_ready():
     await client.change_presence(activity=discord.Streaming(name=clname, url=clurl))
-setproctitle.setproctitle(f'Logged in as {client.User}')
+
 
 client.run(token, bot=False)
